@@ -476,7 +476,7 @@ th {
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
+@media (min-width: 600px) {
   .container {
     width: 80%; }
   .column,
@@ -869,9 +869,9 @@ there.
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
-  /* opacity: .8; */
+  /* opacity: 0.8; */
 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
@@ -882,7 +882,7 @@ there.
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -938,6 +938,7 @@ h6 {
 
     display: inline;
 }
+
 img {
     width: 100%;
 }
@@ -949,71 +950,42 @@ img {
 .nav-list {
     list-style: none;
     display: inline;
-
 }
+
 .nav-cell {
     float: right;
-
 }
 
 .nav-link {
-        display: block;
+
         padding: 0 10px;
-  }
+}
 
 /*The Mobile Menu*/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:650px) {
 
-
-    .nav:before {
-          content: "\2261";
-          cursor: pointer;
-          color: #fff;
-          float: right;
-          font-size: 20px;
-
+    .branding {
+        text-align: center;
+        margin-bottom: 15px;
     }
 
-    .nav-list {
-        display: none;
-
+    .nav {
+        display: block;
+        text-align: center;
     }
 
     .nav-cell {
         float: none;
-
+        display: inline;
     }
-
-    .nav-link {
-        margin: 0;
-        padding: 0;
-
-    }
-
-    .nav-list {
-        transition: 350ms;
-
-      }
-
-    .nav.open ul {
-        display: block;
-        text-align: right;
-      }
-
-
-}
-
-.navigation {
-    text-align: right;
-    display: inline-block;
-
 }
 
 
 .nav-container {
     text-align: right;
 }
+
 .nav-link {
     display: inline;
     margin-left: 2rem;
@@ -1021,8 +993,6 @@ img {
     color: #fff;
     text-decoration: none;
     font-family: "Josefin Sans", sans-serif;
-    vertical-align: middle;
-
 }
 
 .nav-link:before {
@@ -1071,12 +1041,10 @@ img {
     box-sizing: border-box;
 }
 
-
 .navigation {
     text-align: right;
 
 }
-
 
 /*The Hero Section*/
 
@@ -1107,16 +1075,15 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .footer-icons {
     color: #fff;
     padding-left: 10px;
     font-size: 2rem;
 }
 
-
 .copyright {
     text-align: center;
-
 }
 
 .copyright p {

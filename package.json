@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "Portfolio Page for Udacity Nanodegree Program",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.2.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-image-resize": "^0.11.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-responsive": "^2.6.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johannes90/udacityPortfolio.git"
+  },
+  "keywords": [
+    "udacity",
+    "frontend"
+  ],
+  "author": "Johannes Herrmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johannes90/udacityPortfolio/issues"
+  },
+  "homepage": "https://github.com/Johannes90/udacityPortfolio#readme"
+}

@@ -847,13 +847,13 @@ there.
 /*Import the Social Media Icon Font - Credit to Fontello!*/
 
 @font-face {
-  font-family: 'fontello';
-  src: url('../fonts/fontello.eot');
-  src: url('../fonts/fontello.eot?17674043#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff2?17674043') format('woff2'),
-       url('../fonts/fontello.woff?17674043') format('woff'),
-       url('../fonts/fontello.ttf?17674043') format('truetype'),
-       url('../fonts/fontello.svg?17674043#fontello') format('svg');
+  font-family: "fontello";
+  src: url("../fonts/fontello.eot");
+  src: url("../fonts/fontello.eot?17674043#iefix") format("embedded-opentype"),
+       url("../fonts/fontello.woff2?17674043") format("woff2"),
+       url("../fonts/fontello.woff?17674043") format("woff"),
+       url("../fonts/fontello.ttf?17674043") format("truetype"),
+       url("../fonts/fontello.svg?17674043#fontello") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -895,20 +895,26 @@ there.
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-monitor:before { content: '\e800'; } /* '' */
-.icon-git:before { content: '\f1d3'; } /* '' */
-.icon-linkedin:before { content: '\f318'; } /* '' */
+.icon-monitor:before { content: "\e800"; } /* "" */
+.icon-git:before { content: "\f1d3"; } /* "" */
+.icon-linkedin:before { content: "\f318"; } /* "" */
 
 /*Setting the general font styles*/
 
-p,a {
-    font-family: 'Josefin Sans', sans-serif;
+p,
+a {
+    font-family: "Josefin Sans", sans-serif;
     font-size: 1.7rem;
     color: #222;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Alegreya', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Alegreya", serif;
     text-transform: capitalize;
     text-align: center;
     color: #222;
@@ -916,11 +922,11 @@ h1,h2,h3,h4,h5,h6 {
 
 /*Header and Navigation*/
 
-#JH {
+.svg-logo {
     fill: #fff;
 }
 
-.header p {
+.header-title {
     color: #fff;
     display: inline;
     padding-left: 2rem;
@@ -928,29 +934,29 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
-#logo {
+.logo {
 
     display: inline;
 }
 img {
     width: 100%;
 }
+
 .nav {
     display: inline;
-
 }
 
-.nav ul {
+.nav-list {
     list-style: none;
     display: inline;
 
 }
-.nav ul li {
+.nav-cell {
     float: right;
 
 }
 
-.nav ul li a {
+.nav-link {
         display: block;
         padding: 0 10px;
   }
@@ -961,7 +967,7 @@ img {
 
 
     .nav:before {
-          content: '\2261';
+          content: "\2261";
           cursor: pointer;
           color: #fff;
           float: right;
@@ -969,36 +975,34 @@ img {
 
     }
 
-    .nav ul {
+    .nav-list {
         display: none;
 
     }
 
-    .nav ul li {
+    .nav-cell {
         float: none;
 
     }
 
-    .nav ul a {
+    .nav-link {
         margin: 0;
         padding: 0;
 
     }
 
-    .nav ul {
+    .nav-list {
         transition: 350ms;
 
       }
 
     .nav.open ul {
         display: block;
-
         text-align: right;
       }
 
 
 }
-
 
 .navigation {
     text-align: right;
@@ -1016,7 +1020,7 @@ img {
     position: relative;
     color: #fff;
     text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     vertical-align: middle;
 
 }
@@ -1094,7 +1098,7 @@ img {
     margin-top: 50px;
 }
 
-.footer p {
+.footer-copyright {
     color: #fff;
 }
 
@@ -1103,7 +1107,7 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.footer i {
+.footer-icons {
     color: #fff;
     padding-left: 10px;
     font-size: 2rem;
